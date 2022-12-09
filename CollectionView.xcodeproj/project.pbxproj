@@ -13,6 +13,7 @@
 		FE3087672940CDCE00133E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3087652940CDCE00133E78 /* Main.storyboard */; };
 		FE3087692940CDD000133E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3087682940CDD000133E78 /* Assets.xcassets */; };
 		FE30876C2940CDD000133E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE30876A2940CDD000133E78 /* LaunchScreen.storyboard */; };
+		FEA0205C2941BAF100FB3078 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0205B2941BAF100FB3078 /* NumberCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE3087682940CDD000133E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE30876B2940CDD000133E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE30876D2940CDD000133E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA0205B2941BAF100FB3078 /* NumberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FE3087682940CDD000133E78 /* Assets.xcassets */,
 				FE30876A2940CDD000133E78 /* LaunchScreen.storyboard */,
 				FE30876D2940CDD000133E78 /* Info.plist */,
+				FEA0205B2941BAF100FB3078 /* NumberCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA0205C2941BAF100FB3078 /* NumberCell.swift in Sources */,
 				FE3087642940CDCE00133E78 /* ViewController.swift in Sources */,
 				FE3087602940CDCE00133E78 /* AppDelegate.swift in Sources */,
 				FE3087622940CDCE00133E78 /* SceneDelegate.swift in Sources */,
