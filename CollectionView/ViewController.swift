@@ -7,34 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource {
+class ViewController: UIViewController {
     
-    
-    let numbers: [Int] = (1...15).map{ $0 }
+    let adapter = NumberAdapter()
     
     
     @IBOutlet var collectionView: UICollectionView!
-    /*
-    var myCollectionView:UICollectionView?
-       */
+    
+    
         override func viewDidLoad() {
             super.viewDidLoad()
-            
+            adapter.setup(for: collectionView)
+            collectionView.reloadData()
         }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return numbers.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! NumberCell
-        let number = numbers[indexPath.item]
-        cell.numberLabel.text = "\(number)"
-        cell.contentView.layer.borderColor = UIColor.gray.cgColor
-        cell.contentView.layer.borderWidth = 1
-        return cell
-    }
-    
 }
-
 
