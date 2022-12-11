@@ -16,23 +16,17 @@
                 <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t43-lJ-YdT">
-                        <rect key="frame" x="20.333333333333336" y="49" width="87.333333333333314" height="30"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xZK-ZP-ZBu">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="131"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                 </subviews>
-                <constraints>
-                    <constraint firstItem="t43-lJ-YdT" firstAttribute="centerY" secondItem="qay-ZJ-aSw" secondAttribute="centerY" id="2w3-0Y-vdw"/>
-                    <constraint firstItem="t43-lJ-YdT" firstAttribute="centerX" secondItem="qay-ZJ-aSw" secondAttribute="centerX" id="USK-UT-CB7"/>
-                </constraints>
             </collectionViewCellContentView>
             <size key="customSize" width="128" height="128"/>
             <connections>
-                <outlet property="numberLabel" destination="t43-lJ-YdT" id="h77-cu-kZe"/>
+                <outlet property="imageView" destination="xZK-ZP-ZBu" id="BNb-25-Tll"/>
             </connections>
-            <point key="canvasLocation" x="488" y="21"/>
+            <point key="canvasLocation" x="487.69230769230768" y="20.616113744075829"/>
         </collectionViewCell>
     </objects>
 </document>
